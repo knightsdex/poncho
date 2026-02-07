@@ -1,5 +1,5 @@
 document.getElementById('copyButton').addEventListener('click', function() {
-    const textToCopy = '0xComingSoon';
+    const textToCopy = '0x3C2CD47B5fbC49ECa3039846f4cCe2b69F75dA70';
     navigator.clipboard.writeText(textToCopy).then(function() {
         const copyMessage = document.getElementById('copyMessage');
         copyMessage.style.display = 'inline';
